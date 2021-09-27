@@ -13,6 +13,7 @@
 - [x] Access the reducers from the store on the dashboard component
 - [x] Indicate the speed by returning the value of speedControl
 - [x] Indicate the number of passengers by returning the length of the passengerList array
+- [x] Added error handling for empty imput
 
 
 ## INSTRUCTIONS
