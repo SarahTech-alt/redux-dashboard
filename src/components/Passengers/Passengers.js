@@ -17,12 +17,18 @@ function Passengers() {
   const [passengerToAdd, setPassengerToAdd] = useState('');
 
   const addPassenger = () => {
+    if ( passengerToAdd==='' ){
+      alert('cannot be blank');
+    } else {
     event.preventDefault();
     dispatch({
       type: 'ADD_PASSENGER',
       payload: passengerToAdd,
     })
+    setPassengerToAdd('');
   }
+}
+
   return (
     <div>
       <h2>Passengers</h2>
@@ -36,7 +42,7 @@ function Passengers() {
       to display on page */}
       <button onClick={addPassenger}>Add Passenger</button>
       <ul>PASSENGER LIST:  {passengerList.map((person, index) =>
-        <li>
+        <li key= {index}>
           {person}
         </li>
       )}
