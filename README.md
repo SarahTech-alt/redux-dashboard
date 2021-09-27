@@ -2,9 +2,9 @@
 
 ## Checklist
 - [x] npm install and npm run client
-- [ ] set up reducers for speedControl and passengerList
-    - [ ] set initial state for speed to 0
-    - [ ] set initial state for passengerList to an empty array
+- [x] set up reducers for speedControl and passengerList
+    - [x] set initial state for speed to 0
+    - [x] set initial state for passengerList to an empty array
 - [ ] Create dispatch events on SpeedControl for both increase and decrease button
 - [ ] Create matching listener event on speed reducer
 - [ ] Create dispatch event on Passengers to add passengers to the reducer 
