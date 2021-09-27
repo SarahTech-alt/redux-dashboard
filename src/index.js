@@ -25,7 +25,7 @@ const speedControl = (state = 0, action) => {
 // the end of the array
 // if no action return empty array
 
-const passengerList = (state = [], action) => {
+const passengerList = (state = ['Sarah'], action) => {
   if (action.type === 'ADD_PASSENGER') {
     return [...state, action.payload];
   }

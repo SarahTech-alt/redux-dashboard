@@ -11,11 +11,11 @@ function Dashboard() {
   const speedControl = useSelector(store => store.speedControl);
   // Find length of passenger array
   const passengerListLength = passengerList.length;
-  
+
   return (
     <div>
       <h2>Dashboard</h2>
-    {/* Display speed from the reducer */}
+      {/* Display speed from the reducer */}
       <p>SPEED: {speedControl}</p>
       <p>PASSENGER COUNT: {passengerListLength}</p>
     </div>

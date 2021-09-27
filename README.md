@@ -4,7 +4,7 @@
 - [x] npm install and npm run client
 - [x] set up reducers for speedControl and passengerList
     - [x] set initial state for speed to 0
-    - [x] set initial state for passengerList to an empty array
+    - [x] set initial state for passengerList to my name
 - [x] Import useDispatch on PassengerList and SpeedControl components 
 - [x] Create dispatch events on SpeedControl for both increase and decrease button
 - [x] Create matching listener event on speed reducer
@@ -13,7 +13,7 @@
 - [x] Access the reducers from the store on the dashboard component
 - [x] Indicate the speed by returning the value of speedControl
 - [x] Indicate the number of passengers by returning the length of the passengerList array
-- [x] Added error handling for empty imput
+- [x] Added error handling for empty input
 
 
 ## INSTRUCTIONS
