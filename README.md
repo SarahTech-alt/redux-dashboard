@@ -6,8 +6,8 @@
     - [x] set initial state for speed to 0
     - [x] set initial state for passengerList to an empty array
 - [x] Import useDispatch on PassengerList and SpeedControl components 
-- [ ] Create dispatch events on SpeedControl for both increase and decrease button
-- [ ] Create matching listener event on speed reducer
+- [x] Create dispatch events on SpeedControl for both increase and decrease button
+- [x] Create matching listener event on speed reducer
 - [ ] Create dispatch event on Passengers to add passengers to the reducer 
 - [ ] Create matching listener event on passengerList
 - [ ] Access the reducers from the store on the dashboard component

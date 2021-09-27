@@ -8,7 +8,12 @@ import logger from 'redux-logger';
 
 // put your reducers here!
 const speedControl = (state = 0, action) => {
-  return state;
+  if(action.type === 'INCREASE_SPEED') {
+    return state + 1;
+  } else if(action.type === 'DECREASE_SPEED'){
+    return state - 1;
+  }
+  return state; 
 }
 
 const passengerList = (state=[], action) => {
