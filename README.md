@@ -10,9 +10,9 @@
 - [x] Create matching listener event on speed reducer
 - [x] Create dispatch event on Passengers to add passengers to the reducer 
 - [x] Create matching listener event on passengerList
-- [ ] Access the reducers from the store on the dashboard component
-- [ ] Indicate the speed by returning the value of speedControl
-- [ ] Indicate the number of passengers by returning the length of the passengerList array
+- [x] Access the reducers from the store on the dashboard component
+- [x] Indicate the speed by returning the value of speedControl
+- [x] Indicate the number of passengers by returning the length of the passengerList array
 
 
 ## INSTRUCTIONS
