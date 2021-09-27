@@ -8,8 +8,8 @@
 - [x] Import useDispatch on PassengerList and SpeedControl components 
 - [x] Create dispatch events on SpeedControl for both increase and decrease button
 - [x] Create matching listener event on speed reducer
-- [ ] Create dispatch event on Passengers to add passengers to the reducer 
-- [ ] Create matching listener event on passengerList
+- [x] Create dispatch event on Passengers to add passengers to the reducer 
+- [x] Create matching listener event on passengerList
 - [ ] Access the reducers from the store on the dashboard component
 - [ ] Indicate the speed by returning the value of speedControl
 - [ ] Indicate the number of passengers by returning the length of the passengerList array
