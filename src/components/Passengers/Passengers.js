@@ -1,10 +1,11 @@
 import React from 'react';
+import { useDispatch } from 'react-redux';
 // THIS COMPONENT IS OUR INTERFACE FOR PASSENGER CHECK IN
 // YOU SHOULD DISPLAY THE CURRENT PASSENGERS
 // INPUT SHOULD COLLECT INFO, BUTTON SHOULD ADD THEM TO THE LIST
 
 function Passengers() {
-  
+    const dispatch = useDispatch();
     return (
       <div>
         <h2>Passengers</h2>
