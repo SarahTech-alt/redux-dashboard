@@ -34,7 +34,11 @@ function Passengers() {
       <h2>Passengers</h2>
       {/* on input change set the passengerToAdd variable equal
         to the input value */}
-      <input type="text" name="name" placeholder="Enter Name" value={passengerToAdd} onChange={(event) => setPassengerToAdd(event.target.value)} />
+      <input type="text" 
+      name="name" 
+      placeholder="Enter Name" 
+      value={passengerToAdd} 
+      onChange={(event) => setPassengerToAdd(event.target.value)} />
       {/* When the button is clicked call
       addPassenger function which dispatches to the store
       Then map over the passengerList
