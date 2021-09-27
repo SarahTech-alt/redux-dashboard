@@ -7,7 +7,7 @@ import { storeInstance } from '../..';
 
 function SpeedControl() {
   const dispatch = useDispatch();
-  const speedControl = useSelector(store => storeInstance.speedControl)
+  const speedControl = useSelector(store => store.speedControl)
 
   const increaseSpeed = () => {
     dispatch({

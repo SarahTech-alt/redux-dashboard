@@ -8,7 +8,7 @@ import { storeInstance } from '../..';
 
 function Passengers() {
     const dispatch = useDispatch();
-    const passengerList = useSelector(store => storeInstance.passengerList);
+    const passengerList = useSelector(store => store.passengerList);
     const [passengerToAdd, setPassengerToAdd] = useState('');
     
     const addPassenger = () => {
@@ -25,8 +25,8 @@ function Passengers() {
         <input type="text" name="name" placeholder="Enter Name" value={passengerToAdd} onChange={(event) => setPassengerToAdd(event.target.value)} />
         <button onClick={addPassenger}>Add Passenger</button>
 
-        <ul>PASSENGER LIST:  {passengerList.map((person) => {
-          <li>
+        <ul>PASSENGER LIST:  {passengerList.map(person => {
+        <li>
           {person}
         </li>
         })}
